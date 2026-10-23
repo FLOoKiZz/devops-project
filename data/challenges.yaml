@@ -1,4 +1,4 @@
-# The competition.
+# mohammed's competition.
 #
 # This file is data, not code. It is loaded at startup with yaml.safe_load and
 # reconciled into the database: adding a challenge here and restarting adds it,
