@@ -60,3 +60,30 @@ added `idna==3.6`, and the audit reported vulnerabilities in that version.
 packages including `requests`, which showed that other packages depend on
 `idna`. It is not listed as a direct dependency in `requirements.txt` on
 `main`.
+
+## Screenshots
+
+The screenshots collected by our team are saved in `docs/screenshots/` and
+are linked below. They show the command output and CI evidence we captured
+during the lab. Some terminal screenshots show a teammate's account because
+we worked on the shared lab as a team.
+
+- [Earlier green CI run](screenshots/ab/ci-green-pr7.png)
+- [GitHub authentication status](screenshots/c/00-gh-auth-status.png)
+- [Repository pull status](screenshots/c/01-git-pull.png)
+- [Dependency installation](screenshots/c/02-make-install.png)
+- [Test results](screenshots/c/03-make-test.png)
+- [Lint check](screenshots/c/04-make-lint.png)
+- [CI workflow and history](screenshots/c/05-ci-workflow.png)
+- [Part C workflow diff](screenshots/c/06-part-c-diff.png)
+- [Part C pull request](screenshots/c/07-part-c-pr-create.png)
+- [Part C cleanup](screenshots/c/08-part-c-cleanup.png)
+- [Part C failed run](screenshots/c/09-part-c-failed-run.png)
+- [Seeded defects](screenshots/d/01-seed-defects.png)
+- [Failed run summary](screenshots/d/02-failed-run-summary.png)
+- [Test failure output](screenshots/d/03-test-failures.png)
+- [Secret scan and dependency audit](screenshots/d/04-secret-and-audit-log.png)
+- [Diagnosis work](screenshots/d/05-diagnosis-work.png)
+- [Secret scan output](screenshots/d/06-secret-scan-log.png)
+- [Application fix diff](screenshots/d/07-app-fix-diff.png)
+- [Final green verify check](screenshots/d/08-green-verify.png)
